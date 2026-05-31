@@ -7,11 +7,12 @@ export default function Footer() {
   return (
     <footer className="border-t border-border/50 py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-            <span className="font-display text-primary-foreground text-base">EJ</span>
-          </div>
-          <span className="font-display text-foreground text-lg tracking-wider">ENOCK JUNIOR</span>
+        <div className="flex items-center">
+          <img
+            src="https://i.ibb.co/KctKjpnm/Logo-Enock-Jr-Personal.png"
+            alt="Enock Junior Personal Trainer"
+            className="h-10 w-auto"
+          />
         </div>
 
         <p className="font-inter text-xs text-muted-foreground">

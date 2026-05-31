@@ -16,13 +16,12 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-xl border-b border-border/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
-          <a href="#hero" className="flex items-center gap-2">
-            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-primary flex items-center justify-center">
-              <span className="font-display text-primary-foreground text-lg sm:text-xl">EJ</span>
-            </div>
-            <div className="leading-none">
-              <span className="font-display text-foreground text-lg sm:text-xl tracking-wider">ENOCK JUNIOR</span>
-            </div>
+          <a href="#hero" className="flex items-center">
+            <img
+              src="https://i.ibb.co/KctKjpnm/Logo-Enock-Jr-Personal.png"
+              alt="Enock Junior Personal Trainer"
+              className="h-10 sm:h-12 w-auto"
+            />
           </a>
 
           <div className="hidden md:flex items-center gap-8">
