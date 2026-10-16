@@ -3,19 +3,14 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Maria Silva",
-    text: "Em 6 meses perdi 15kg e ganhei uma qualidade de vida incrível. O Enock é atencioso e monta treinos que realmente funcionam!",
-    role: "Emagrecimento",
+    name: "Celine",
+    text: "Enock, um professor diferenciado!\nSempre ajudando a quebrar barreiras,\nrespeitando nossos limites e aumentando a nossa autoestima.\nCada aula é uma evolução!",
+    role: "Acompanhamento Presencial",
   },
   {
-    name: "Carlos Oliveira",
-    text: "Sempre tive dificuldade em ganhar massa muscular. Com o acompanhamento personalizado, finalmente estou vendo resultados reais.",
-    role: "Hipertrofia",
-  },
-  {
-    name: "Ana Beatriz",
-    text: "A consultoria online é perfeita pra quem tem rotina corrida. Treinos práticos, suporte rápido e resultado garantido!",
-    role: "Consultoria Online",
+    name: "Genésia",
+    text: "Quero te parabenizar pelo seu trabalho! Já estou percebendo melhoras no meu corpo e vendo que os treinos estão fazendo a diferença. Obrigada pela dedicação, pela atenção e por montar meus treinos com tanto cuidado. Estou muito feliz com os resultados!",
+    role: "Acompanhamento Presencial",
   },
 ];
 
@@ -47,7 +42,7 @@ export default function TestimonialsSection() {
               className="p-6 rounded-2xl bg-card border border-border/50 hover:border-primary/20 transition-colors"
             >
               <Quote size={28} className="text-primary/30 mb-4" />
-              <p className="font-inter text-muted-foreground text-sm leading-relaxed mb-6">"{t.text}"</p>
+              <p className="font-inter text-muted-foreground text-sm leading-relaxed mb-6 whitespace-pre-line">"{t.text}"</p>
               <div className="flex items-center gap-1 mb-3">
                 {[...Array(5)].map((_, j) => (
                   <Star key={j} size={14} className="fill-primary text-primary" />
